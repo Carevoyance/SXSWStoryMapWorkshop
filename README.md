@@ -1,5 +1,7 @@
 # Working with QGIS
 
+We're making this a [Story Map](http://arcg.is/1TFGMxq)
+
 ## Intro
 
 1. Download QGIS
