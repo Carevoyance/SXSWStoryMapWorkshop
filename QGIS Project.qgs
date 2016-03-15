@@ -51,7 +51,7 @@
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Reference Data">
+    <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Reference Data">
       <customproperties/>
       <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="cb_2014_us_zcta510_500k20160313095559304" name="2014 ZCTA Shapes">
         <customproperties/>
@@ -68,10 +68,10 @@
   <mapcanvas>
     <units>degrees</units>
     <extent>
-      <xmin>-100.49901686535669398</xmin>
-      <ymin>27.99572182135240439</ymin>
-      <xmax>-95.70310408126574941</xmax>
-      <ymax>32.11342471678402433</ymax>
+      <xmin>-100.74562334092038896</xmin>
+      <ymin>28.09145030688995348</ymin>
+      <xmax>-95.66588655580497402</xmax>
+      <ymax>32.25842188842994318</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -199,7 +199,7 @@
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup open="true" checked="Qt::Unchecked" name="Reference Data">
+    <legendgroup open="false" checked="Qt::Unchecked" name="Reference Data">
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="2014 ZCTA Shapes" showFeatureCount="0">
         <filegroup open="true" hidden="false">
           <legendlayerfile isInOverview="0" layerid="cb_2014_us_zcta510_500k20160313095559304" visible="0"/>
@@ -2036,7 +2036,7 @@ def my_form_open(dialog, layer, feature):
       </srs>
       <customproperties/>
       <provider encoding="UTF-8">delimitedtext</provider>
-      <previewExpression></previewExpression>
+      <previewExpression>COALESCE("Id", '&lt;NULL>')||', '||COALESCE("Id2", '&lt;NULL>')||', '||COALESCE("Geography", '&lt;NULL>')||', '||COALESCE("Estimate; Total:", '&lt;NULL>')||', '||COALESCE("Margin of Error; Total:", '&lt;NULL>')||', '||COALESCE("Estimate; Male:", '&lt;NULL>')||', '||COALESCE("Margin of Error; Male:", '&lt;NULL>')||', '||COALESCE("Estimate; Male: - Under 5 years", '&lt;NULL>')||', '||COALESCE("Margin of Error; Male: - Under 5 years", '&lt;NULL>')||', '||COALESCE("Estimate; Male: - 5 to 9 years", '&lt;NULL>')||', '||COALESCE("Margin of Error; Male: - 5 to 9 years", '&lt;NULL>')||', '||COALESCE("Estimate; Male: - 10 to 14 years", '&lt;NULL>')||', '||COALESCE("Margin of Error; Male: - 10 to 14 years", '&lt;NULL>')||', '||COALESCE("Estimate; Male: - 15 to 17 years", '&lt;NULL>')||', '||COALESCE("Margin of Error; Male: - 15 to 17 years", '&lt;NULL>')||', '||COALESCE("Estimate; Male: - 18 and 19 years", '&lt;NULL>')||', '||COALESCE("Margin of Error; Male: - 18 and 19 years", '&lt;NULL>')||', '||COALESCE("Estimate; Male: - 20 years", '&lt;NULL>')||', '||COALESCE("Margin of Error; Male: - 20 years", '&lt;NULL>')||', '||COALESCE("Estimate; Male: - 21 years", '&lt;NULL>')||', '||COALESCE("Margin of Error; Male: - 21 years", '&lt;NULL>')||', '||COALESCE("Estimate; Male: - 22 to 24 years", '&lt;NULL>')||', '||COALESCE("Margin of Error; Male: - 22 to 24 years", '&lt;NULL>')||', '||COALESCE("Estimate; Male: - 25 to 29 years", '&lt;NULL>')||', '||COALESCE("Margin of Error; Male: - 25 to 29 years", '&lt;NULL>')||', '||COALESCE("Estimate; Male: - 30 to 34 years", '&lt;NULL>')||', '||COALESCE("Margin of Error; Male: - 30 to 34 years", '&lt;NULL>')||', '||COALESCE("Estimate; Male: - 35 to 39 years", '&lt;NULL>')||', '||COALESCE("Margin of Error; Male: - 35 to 39 years", '&lt;NULL>')||', '||COALESCE("Estimate; Male: - 40 to 44 years", '&lt;NULL>')||', '||COALESCE("Margin of Error; Male: - 40 to 44 years", '&lt;NULL>')||', '||COALESCE("Estimate; Male: - 45 to 49 years", '&lt;NULL>')||', '||COALESCE("Margin of Error; Male: - 45 to 49 years", '&lt;NULL>')||', '||COALESCE("Estimate; Male: - 50 to 54 years", '&lt;NULL>')||', '||COALESCE("Margin of Error; Male: - 50 to 54 years", '&lt;NULL>')||', '||COALESCE("Estimate; Male: - 55 to 59 years", '&lt;NULL>')||', '||COALESCE("Margin of Error; Male: - 55 to 59 years", '&lt;NULL>')||', '||COALESCE("Estimate; Male: - 60 and 61 years", '&lt;NULL>')||', '||COALESCE("Margin of Error; Male: - 60 and 61 years", '&lt;NULL>')||', '||COALESCE("Estimate; Male: - 62 to 64 years", '&lt;NULL>')||', '||COALESCE("Margin of Error; Male: - 62 to 64 years", '&lt;NULL>')||', '||COALESCE("Estimate; Male: - 65 and 66 years", '&lt;NULL>')||', '||COALESCE("Margin of Error; Male: - 65 and 66 years", '&lt;NULL>')||', '||COALESCE("Estimate; Male: - 67 to 69 years", '&lt;NULL>')||', '||COALESCE("Margin of Error; Male: - 67 to 69 years", '&lt;NULL>')||', '||COALESCE("Estimate; Male: - 70 to 74 years", '&lt;NULL>')||', '||COALESCE("Margin of Error; Male: - 70 to 74 years", '&lt;NULL>')||', '||COALESCE("Estimate; Male: - 75 to 79 years", '&lt;NULL>')||', '||COALESCE("Margin of Error; Male: - 75 to 79 years", '&lt;NULL>')||', '||COALESCE("Estimate; Male: - 80 to 84 years", '&lt;NULL>')||', '||COALESCE("Margin of Error; Male: - 80 to 84 years", '&lt;NULL>')||', '||COALESCE("Estimate; Male: - 85 years and over", '&lt;NULL>')||', '||COALESCE("Margin of Error; Male: - 85 years and over", '&lt;NULL>')||', '||COALESCE("Estimate; Female:", '&lt;NULL>')||', '||COALESCE("Margin of Error; Female:", '&lt;NULL>')||', '||COALESCE("Estimate; Female: - Under 5 years", '&lt;NULL>')||', '||COALESCE("Margin of Error; Female: - Under 5 years", '&lt;NULL>')||', '||COALESCE("Estimate; Female: - 5 to 9 years", '&lt;NULL>')||', '||COALESCE("Margin of Error; Female: - 5 to 9 years", '&lt;NULL>')||', '||COALESCE("Estimate; Female: - 10 to 14 years", '&lt;NULL>')||', '||COALESCE("Margin of Error; Female: - 10 to 14 years", '&lt;NULL>')||', '||COALESCE("Estimate; Female: - 15 to 17 years", '&lt;NULL>')||', '||COALESCE("Margin of Error; Female: - 15 to 17 years", '&lt;NULL>')||', '||COALESCE("Estimate; Female: - 18 and 19 years", '&lt;NULL>')||', '||COALESCE("Margin of Error; Female: - 18 and 19 years", '&lt;NULL>')||', '||COALESCE("Estimate; Female: - 20 years", '&lt;NULL>')||', '||COALESCE("Margin of Error; Female: - 20 years", '&lt;NULL>')||', '||COALESCE("Estimate; Female: - 21 years", '&lt;NULL>')||', '||COALESCE("Margin of Error; Female: - 21 years", '&lt;NULL>')||', '||COALESCE("Estimate; Female: - 22 to 24 years", '&lt;NULL>')||', '||COALESCE("Margin of Error; Female: - 22 to 24 years", '&lt;NULL>')||', '||COALESCE("Estimate; Female: - 25 to 29 years", '&lt;NULL>')||', '||COALESCE("Margin of Error; Female: - 25 to 29 years", '&lt;NULL>')||', '||COALESCE("Estimate; Female: - 30 to 34 years", '&lt;NULL>')||', '||COALESCE("Margin of Error; Female: - 30 to 34 years", '&lt;NULL>')||', '||COALESCE("Estimate; Female: - 35 to 39 years", '&lt;NULL>')||', '||COALESCE("Margin of Error; Female: - 35 to 39 years", '&lt;NULL>')||', '||COALESCE("Estimate; Female: - 40 to 44 years", '&lt;NULL>')||', '||COALESCE("Margin of Error; Female: - 40 to 44 years", '&lt;NULL>')||', '||COALESCE("Estimate; Female: - 45 to 49 years", '&lt;NULL>')||', '||COALESCE("Margin of Error; Female: - 45 to 49 years", '&lt;NULL>')||', '||COALESCE("Estimate; Female: - 50 to 54 years", '&lt;NULL>')||', '||COALESCE("Margin of Error; Female: - 50 to 54 years", '&lt;NULL>')||', '||COALESCE("Estimate; Female: - 55 to 59 years", '&lt;NULL>')||', '||COALESCE("Margin of Error; Female: - 55 to 59 years", '&lt;NULL>')||', '||COALESCE("Estimate; Female: - 60 and 61 years", '&lt;NULL>')||', '||COALESCE("Margin of Error; Female: - 60 and 61 years", '&lt;NULL>')||', '||COALESCE("Estimate; Female: - 62 to 64 years", '&lt;NULL>')||', '||COALESCE("Margin of Error; Female: - 62 to 64 years", '&lt;NULL>')||', '||COALESCE("Estimate; Female: - 65 and 66 years", '&lt;NULL>')||', '||COALESCE("Margin of Error; Female: - 65 and 66 years", '&lt;NULL>')||', '||COALESCE("Estimate; Female: - 67 to 69 years", '&lt;NULL>')||', '||COALESCE("Margin of Error; Female: - 67 to 69 years", '&lt;NULL>')||', '||COALESCE("Estimate; Female: - 70 to 74 years", '&lt;NULL>')||', '||COALESCE("Margin of Error; Female: - 70 to 74 years", '&lt;NULL>')||', '||COALESCE("Estimate; Female: - 75 to 79 years", '&lt;NULL>')||', '||COALESCE("Margin of Error; Female: - 75 to 79 years", '&lt;NULL>')||', '||COALESCE("Estimate; Female: - 80 to 84 years", '&lt;NULL>')||', '||COALESCE("Margin of Error; Female: - 80 to 84 years", '&lt;NULL>')||', '||COALESCE("Estimate; Female: - 85 years and over", '&lt;NULL>')||', '||COALESCE("Margin of Error; Female: - 85 years and over", '&lt;NULL>')</previewExpression>
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
@@ -4561,7 +4561,7 @@ def my_form_open(dialog, layer, feature):
         <fieldstyles/>
       </conditionalstyles>
     </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>centroids20160313012559707</id>
       <datasource>./export/austin/aus/centroids.shp</datasource>
       <shortname>centroids</shortname>
@@ -4585,7 +4585,9 @@ def my_form_open(dialog, layer, feature):
       </srs>
       <provider encoding="UTF-8">ogr</provider>
       <previewExpression></previewExpression>
-      <vectorjoins/>
+      <vectorjoins>
+        <join joinFieldName="Zip" targetFieldName="GEOID" memoryCache="1" joinLayerId="aggregates20160313010600469"/>
+      </vectorjoins>
       <layerDependencies/>
       <expressionfields/>
       <map-layer-style-manager current="">
@@ -4634,6 +4636,27 @@ def my_form_open(dialog, layer, feature):
         <edittype widgetv2type="TextEdit" name="aggregat_6">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="aggregates_Sum of Number of Services">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="aggregates_Sum of Number of Unique Beneficiaries">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="aggregates_Count of Number of Unique Beneficiaries">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="aggregates_Sum of Total Medicare Payment Amount">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="aggregates_Average of Percent (%) of Beneficiaries Identified With Cancer">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="aggregates_Average of Percent (%) of Beneficiaries Identified With Diabetes">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="aggregates_Average of Average HCC Risk Score of Beneficiaries">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
       </edittypes>
       <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
         <symbols>
@@ -4663,7 +4686,157 @@ def my_form_open(dialog, layer, feature):
         <sizescale scalemethod="diameter"/>
       </renderer-v2>
       <labeling type="simple"/>
-      <customproperties/>
+      <customproperties>
+        <property key="labeling" value="pal"/>
+        <property key="labeling/addDirectionSymbol" value="false"/>
+        <property key="labeling/angleOffset" value="0"/>
+        <property key="labeling/blendMode" value="0"/>
+        <property key="labeling/bufferBlendMode" value="0"/>
+        <property key="labeling/bufferColorA" value="255"/>
+        <property key="labeling/bufferColorB" value="255"/>
+        <property key="labeling/bufferColorG" value="255"/>
+        <property key="labeling/bufferColorR" value="255"/>
+        <property key="labeling/bufferDraw" value="false"/>
+        <property key="labeling/bufferJoinStyle" value="64"/>
+        <property key="labeling/bufferNoFill" value="false"/>
+        <property key="labeling/bufferSize" value="1"/>
+        <property key="labeling/bufferSizeInMapUnits" value="false"/>
+        <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
+        <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
+        <property key="labeling/bufferTransp" value="0"/>
+        <property key="labeling/centroidInside" value="false"/>
+        <property key="labeling/centroidWhole" value="false"/>
+        <property key="labeling/decimals" value="3"/>
+        <property key="labeling/displayAll" value="false"/>
+        <property key="labeling/dist" value="0"/>
+        <property key="labeling/distInMapUnits" value="false"/>
+        <property key="labeling/distMapUnitMaxScale" value="0"/>
+        <property key="labeling/distMapUnitMinScale" value="0"/>
+        <property key="labeling/drawLabels" value="false"/>
+        <property key="labeling/enabled" value="false"/>
+        <property key="labeling/fieldName" value=""/>
+        <property key="labeling/fitInPolygonOnly" value="false"/>
+        <property key="labeling/fontCapitals" value="0"/>
+        <property key="labeling/fontFamily" value=".SF NS Text"/>
+        <property key="labeling/fontItalic" value="false"/>
+        <property key="labeling/fontLetterSpacing" value="0"/>
+        <property key="labeling/fontLimitPixelSize" value="false"/>
+        <property key="labeling/fontMaxPixelSize" value="10000"/>
+        <property key="labeling/fontMinPixelSize" value="3"/>
+        <property key="labeling/fontSize" value="13"/>
+        <property key="labeling/fontSizeInMapUnits" value="false"/>
+        <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
+        <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
+        <property key="labeling/fontStrikeout" value="false"/>
+        <property key="labeling/fontUnderline" value="false"/>
+        <property key="labeling/fontWeight" value="50"/>
+        <property key="labeling/fontWordSpacing" value="0"/>
+        <property key="labeling/formatNumbers" value="false"/>
+        <property key="labeling/isExpression" value="true"/>
+        <property key="labeling/labelOffsetInMapUnits" value="true"/>
+        <property key="labeling/labelOffsetMapUnitMaxScale" value="0"/>
+        <property key="labeling/labelOffsetMapUnitMinScale" value="0"/>
+        <property key="labeling/labelPerPart" value="false"/>
+        <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+        <property key="labeling/limitNumLabels" value="false"/>
+        <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+        <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+        <property key="labeling/maxNumLabels" value="2000"/>
+        <property key="labeling/mergeLines" value="false"/>
+        <property key="labeling/minFeatureSize" value="0"/>
+        <property key="labeling/multilineAlign" value="0"/>
+        <property key="labeling/multilineHeight" value="1"/>
+        <property key="labeling/namedStyle" value=""/>
+        <property key="labeling/obstacle" value="true"/>
+        <property key="labeling/obstacleFactor" value="1"/>
+        <property key="labeling/obstacleType" value="0"/>
+        <property key="labeling/offsetType" value="0"/>
+        <property key="labeling/placeDirectionSymbol" value="0"/>
+        <property key="labeling/placement" value="0"/>
+        <property key="labeling/placementFlags" value="10"/>
+        <property key="labeling/plussign" value="false"/>
+        <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
+        <property key="labeling/preserveRotation" value="true"/>
+        <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+        <property key="labeling/priority" value="5"/>
+        <property key="labeling/quadOffset" value="4"/>
+        <property key="labeling/repeatDistance" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitMaxScale" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitMinScale" value="0"/>
+        <property key="labeling/repeatDistanceUnit" value="1"/>
+        <property key="labeling/reverseDirectionSymbol" value="false"/>
+        <property key="labeling/rightDirectionSymbol" value=">"/>
+        <property key="labeling/scaleMax" value="10000000"/>
+        <property key="labeling/scaleMin" value="1"/>
+        <property key="labeling/scaleVisibility" value="false"/>
+        <property key="labeling/shadowBlendMode" value="6"/>
+        <property key="labeling/shadowColorB" value="0"/>
+        <property key="labeling/shadowColorG" value="0"/>
+        <property key="labeling/shadowColorR" value="0"/>
+        <property key="labeling/shadowDraw" value="false"/>
+        <property key="labeling/shadowOffsetAngle" value="135"/>
+        <property key="labeling/shadowOffsetDist" value="1"/>
+        <property key="labeling/shadowOffsetGlobal" value="true"/>
+        <property key="labeling/shadowOffsetMapUnitMaxScale" value="0"/>
+        <property key="labeling/shadowOffsetMapUnitMinScale" value="0"/>
+        <property key="labeling/shadowOffsetUnits" value="1"/>
+        <property key="labeling/shadowRadius" value="1.5"/>
+        <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+        <property key="labeling/shadowRadiusMapUnitMaxScale" value="0"/>
+        <property key="labeling/shadowRadiusMapUnitMinScale" value="0"/>
+        <property key="labeling/shadowRadiusUnits" value="1"/>
+        <property key="labeling/shadowScale" value="100"/>
+        <property key="labeling/shadowTransparency" value="30"/>
+        <property key="labeling/shadowUnder" value="0"/>
+        <property key="labeling/shapeBlendMode" value="0"/>
+        <property key="labeling/shapeBorderColorA" value="255"/>
+        <property key="labeling/shapeBorderColorB" value="128"/>
+        <property key="labeling/shapeBorderColorG" value="128"/>
+        <property key="labeling/shapeBorderColorR" value="128"/>
+        <property key="labeling/shapeBorderWidth" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitMaxScale" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeBorderWidthUnits" value="1"/>
+        <property key="labeling/shapeDraw" value="false"/>
+        <property key="labeling/shapeFillColorA" value="255"/>
+        <property key="labeling/shapeFillColorB" value="255"/>
+        <property key="labeling/shapeFillColorG" value="255"/>
+        <property key="labeling/shapeFillColorR" value="255"/>
+        <property key="labeling/shapeJoinStyle" value="64"/>
+        <property key="labeling/shapeOffsetMapUnitMaxScale" value="0"/>
+        <property key="labeling/shapeOffsetMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeOffsetUnits" value="1"/>
+        <property key="labeling/shapeOffsetX" value="0"/>
+        <property key="labeling/shapeOffsetY" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitMaxScale" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeRadiiUnits" value="1"/>
+        <property key="labeling/shapeRadiiX" value="0"/>
+        <property key="labeling/shapeRadiiY" value="0"/>
+        <property key="labeling/shapeRotation" value="0"/>
+        <property key="labeling/shapeRotationType" value="0"/>
+        <property key="labeling/shapeSVGFile" value=""/>
+        <property key="labeling/shapeSizeMapUnitMaxScale" value="0"/>
+        <property key="labeling/shapeSizeMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeSizeType" value="0"/>
+        <property key="labeling/shapeSizeUnits" value="1"/>
+        <property key="labeling/shapeSizeX" value="0"/>
+        <property key="labeling/shapeSizeY" value="0"/>
+        <property key="labeling/shapeTransparency" value="0"/>
+        <property key="labeling/shapeType" value="0"/>
+        <property key="labeling/textColorA" value="255"/>
+        <property key="labeling/textColorB" value="0"/>
+        <property key="labeling/textColorG" value="0"/>
+        <property key="labeling/textColorR" value="0"/>
+        <property key="labeling/textTransp" value="0"/>
+        <property key="labeling/upsidedownLabels" value="0"/>
+        <property key="labeling/wrapChar" value=""/>
+        <property key="labeling/xOffset" value="0"/>
+        <property key="labeling/yOffset" value="0"/>
+        <property key="labeling/zIndex" value="0"/>
+        <property key="variableNames" value="_fields_"/>
+        <property key="variableValues" value=""/>
+      </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
       <layerTransparency>0</layerTransparency>
@@ -4689,6 +4862,12 @@ def my_form_open(dialog, layer, feature):
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
+      <SingleCategoryDiagramRenderer diagramType="Pie">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
+          <fontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
       <annotationform></annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -4697,7 +4876,23 @@ def my_form_open(dialog, layer, feature):
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
       <editforminitfilepath></editforminitfilepath>
-      <editforminitcode><![CDATA[]]></editforminitcode>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from PyQt4.QtGui import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
       <widgets/>
@@ -4706,7 +4901,7 @@ def my_form_open(dialog, layer, feature):
         <fieldstyles/>
       </conditionalstyles>
     </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>shapes20160313012612460</id>
       <datasource>./export/austin/aus/shapes.shp</datasource>
       <shortname>shapes</shortname>
@@ -4730,7 +4925,9 @@ def my_form_open(dialog, layer, feature):
       </srs>
       <provider encoding="UTF-8">ogr</provider>
       <previewExpression></previewExpression>
-      <vectorjoins/>
+      <vectorjoins>
+        <join joinFieldName="Zip" targetFieldName="ZCTA5CE10" memoryCache="1" joinLayerId="aggregates20160313010600469"/>
+      </vectorjoins>
       <layerDependencies/>
       <expressionfields/>
       <map-layer-style-manager current="">
@@ -4773,9 +4970,130 @@ def my_form_open(dialog, layer, feature):
         <edittype widgetv2type="TextEdit" name="aggregat_6">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="aggregates_Sum of Number of Services">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="aggregates_Sum of Number of Unique Beneficiaries">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="aggregates_Count of Number of Unique Beneficiaries">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="aggregates_Sum of Total Medicare Payment Amount">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="aggregates_Average of Percent (%) of Beneficiaries Identified With Cancer">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="aggregates_Average of Percent (%) of Beneficiaries Identified With Diabetes">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="aggregates_Average of Average HCC Risk Score of Beneficiaries">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
       </edittypes>
-      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+      <renderer-v2 attr="aggregates_Average of Average HCC Risk Score of Beneficiaries" forceraster="0" symbollevels="0" type="graduatedSymbol" graduatedMethod="GraduatedColor" enableorderby="0">
+        <ranges>
+          <range render="true" symbol="0" lower="0.581500000000000" upper="1.101866667000000" label=" 0.6 - 1.1 "/>
+          <range render="true" symbol="1" lower="1.101866667000000" upper="1.325755319000000" label=" 1.1 - 1.3 "/>
+          <range render="true" symbol="2" lower="1.325755319000000" upper="1.588155556000000" label=" 1.3 - 1.6 "/>
+          <range render="true" symbol="3" lower="1.588155556000000" upper="1.949400000000000" label=" 1.6 - 1.9 "/>
+          <range render="true" symbol="4" lower="1.949400000000000" upper="2.541166667000000" label=" 1.9 - 2.5 "/>
+          <range render="true" symbol="5" lower="2.541166667000000" upper="4.219600000000000" label=" 2.5 - 4.2 "/>
+        </ranges>
         <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="255,245,235,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="175,179,138,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="1">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="253,218,182,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="175,179,138,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="2">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="253,171,103,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="175,179,138,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="3">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="245,118,34,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="175,179,138,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="4">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="208,69,1,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="175,179,138,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="5">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="127,39,4,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="175,179,138,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <source-symbol>
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -4791,9 +5109,18 @@ def my_form_open(dialog, layer, feature):
               <prop k="style" v="solid"/>
             </layer>
           </symbol>
-        </symbols>
+        </source-symbol>
+        <colorramp type="gradient" name="[source]">
+          <prop k="color1" v="255,245,235,255"/>
+          <prop k="color2" v="127,39,4,255"/>
+          <prop k="discrete" v="0"/>
+          <prop k="stops" v="0.13;254,230,206,255:0.26;253,208,162,255:0.39;253,174,107,255:0.52;253,141,60,255:0.65;241,105,19,255:0.78;217,72,1,255:0.9;166,54,3,255"/>
+        </colorramp>
+        <invertedcolorramp value="0"/>
+        <mode name="jenks"/>
         <rotation/>
         <sizescale scalemethod="diameter"/>
+        <labelformat format=" %1 - %2 " trimtrailingzeroes="false" decimalplaces="2"/>
       </renderer-v2>
       <labeling type="simple"/>
       <customproperties>
@@ -4973,7 +5300,7 @@ def my_form_open(dialog, layer, feature):
         <selectedonly on=""/>
       </labelattributes>
       <SingleCategoryDiagramRenderer diagramType="Pie">
-        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="0">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
           <fontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
